@@ -1,0 +1,130 @@
+html {
+	scroll-behavior: smooth;
+}
+
+#nav {
+	background-color: #ad8b2d;
+	height: 50px;
+	border: 1px solid #ad8b2d;
+  	border-radius: 10px;
+  	margin-bottom: 25px;
+  	position: sticky;
+  	top: 0;
+}
+
+#menu {
+	list-style: none;
+	padding: 0px;
+	float: right;
+	vertical-align: middle;
+}
+
+#menu li {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#menu li a {
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+
+.goldText {
+	display: block;
+    color: #daa520;
+    font-weight: 900;
+	margin: 0;
+}
+
+#Intro {
+	width: 600px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Intro * {
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.InlineText {
+	display: inline;
+}
+
+#Nickname {
+	margin-top: 100px;
+}
+
+#EnNickname {
+	margin-bottom: 100px;
+}
+
+.Clicked {
+	background-color: #0000ff;
+}
+
+#IntroDes {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.EditorLink {
+	display: inline-block;
+	width: 180px;
+	height: 50px;
+	margin: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 32px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.DisClicked {
+	background-color: #808080;
+}
+
+#SelectProjectEditor {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#EntryProject {
+	width: 720px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#UnityProject {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#WebProject {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Hide {
+	display: none;
+}
+
+.Show {
+	display: block;
+}
+
+.Programs {
+	width: 500px;
+}
+
+.CenterText {
+	text-align: center;
+}
